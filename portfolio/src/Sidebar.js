@@ -1,3 +1,4 @@
+// src/Side.js
 import React from 'react';
 import './App.css';
 
@@ -18,15 +19,6 @@ const Sidebar = () => {
           <img src="css.png" alt="CSS" />
           <img src="Js.png" alt="JavaScript" />
         </div>
-      </div>
-      <div className="pages-section">
-        <h3>Sections</h3>
-        <a href="#home">Home</a>
-        <a href="#interns">Interns</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="#blog">Blog</a>
       </div>
       <div className="contact-info">
         <h3>Contact</h3>

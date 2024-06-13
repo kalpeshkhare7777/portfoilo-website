@@ -1,33 +1,74 @@
 /* src/App.css */
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   background-color: #000000;
- 
- 
+  overflow: hidden;
+}
+
+.name{
+  margin-top: 5vh;
+  margin-left: 5vw;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  color: white;
+  font-size: 4rem; 
+  text-shadow: 2px 4px 3px #892CDC;
+}
+.kalpesh{
+  color: #892CDC;
+  text-shadow: 1px 1px 1px white;
+}
+
+.top-bar {
+  position: sticky;
+  top: 0;
+  color: #ecf0f1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.top-bar a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
 }
 
 .app-container {
   display: flex;
 }
-
+.routing{
+  position: sticky;
+  top: 1;
+}
 .main-content {
   flex: 1;
-  overflow: auto;
-  height: 95vh;
+  overflow:hidden;
+  height: 92vh;
   padding: 20px;
   scrollbar-width: none;
+  background-color: #242424;
+  color: #ecf0f1;
+  margin: 10px;
+  border-radius:20px;
 }
 
-section {
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: white;
+.section {
   border-radius: 8px;
-  height: 90vh;
+  height: 85vh;
 }
 
 .sidebar-container {
+  position: sticky;
+  top: 0;
   position: relative;
   top: 0;
   height: 92vh;
@@ -40,6 +81,7 @@ section {
   padding: 20px;
   margin: 10px;
   border-radius:20px;
+  font-family: 'calibri', sans-serif;
 }
 
 .profile-image {
@@ -79,29 +121,4 @@ section {
 
 .pages-section a:hover {
   text-decoration: underline;
-}
-
-#home{
-  z-index: 6;
-  background-color: blue;
-}
-#interns{
-  z-index: 5;
-  background-color: yellow;
-}
-#education{
-  z-index: 4;
-  background-color: green;
-}
-#projects{
-  z-index: 3;
-  background-color: red;
-}
-#contact{
-  z-index: 2;
-  background-color: white;
-}
-#blog{
-  z-index: 0;
-  background-color: pink;
 }
