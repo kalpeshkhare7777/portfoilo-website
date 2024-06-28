@@ -5,21 +5,82 @@ body {
   background-color: #000000;
   overflow: hidden;
 }
+/* .logincontainer{
 
-.name{
-  margin-top: 5vh;
-  margin-left: 5vw;
-  font-family: "Kalam", cursive;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2rem;
-  color: white;
-  font-size: 4rem; 
-  text-shadow: 2px 4px 3px #892CDC;
+} */
+.login {
+    border: 1px solid var(--cyan);
+    padding: 20px;
+    margin: 20px;
+    background: var(--mainlight);
+    border-radius: 10px;
 }
-.kalpesh{
-  color: #892CDC;
-  text-shadow: 1px 1px 1px white;
+
+.input {
+    margin-top: 5px;
+    color: var(--white);
+    background-color: var(--main);
+    height: 40px;
+    width: 97%; /* Adjusted to be responsive */
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    text-shadow: var(--cyan) 0px 0px 20px;
+}
+.message{
+  padding-top: 20px;
+  height: 100px;
+}
+
+.textlabel {
+    text-shadow: var(--cyan) 0px 0px 10px;
+    text-align: start;
+    font-size: 18px;
+    display: block; /* Ensure labels take full width */
+    margin-top: 15px;
+    margin-bottom: 5px; /* Added spacing between labels and inputs */
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid var(--cyan);
+}
+
+.input:hover {
+    box-shadow: var(--cyan) 0px 0px 20px;
+    border: 1px solid var(--cyan);
+}
+
+.input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.btn {
+    color: var(--white);
+    margin-top: 15px;
+    background-color: var(--mainlight);
+    border: 1px solid var(--cyan);
+    border-radius: 10px;
+    width: 100%; /* Adjusted to be responsive */
+    height: 45px;
+    font-size: 18px;
+    text-shadow: var(--cyan) 0px 0px 20px;
+    box-shadow: rgba(95, 240, 208, 0.15) 0px 0px 50px;
+}
+
+.btn:hover {
+    color: var(--main);
+    background-color: var(--cyan);
+    cursor: pointer;
+    box-shadow: var(--cyan) 0px 0px 40px;
+}
+
+:root {
+    --main: #000000;
+    --mainlight: #28004a;
+    --white: #ccd6f6;
+    --cyan: #892CDC;
 }
 
 .top-bar {

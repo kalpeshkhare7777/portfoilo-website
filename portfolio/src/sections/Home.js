@@ -3,9 +3,8 @@ import React from 'react';
 const Home = () => {
   return (
     <div className="section home">
-      <div className="name">Hi there,<br></br>
-      I am <text className="kalpesh">Kalpesh...</text>
-      </div>
+     <h1>Hello !!</h1>
+      <p>Myself Kalpesh Khare</p>
     </div>
   );
 };
